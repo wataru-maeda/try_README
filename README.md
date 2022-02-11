@@ -1,32 +1,42 @@
 # FINTEL Gitflow Proposal
 
-## Current Main Branches
+## Main Branches
 
 - ***master***
-  - Production code.
-  - Fintel production system is up and running based on the code
-  - Expected no bugs, no BETA, WIP state of changes
-  - We SHOULD NOT push any changes/Pull Request directory EXCEPT hotfix.
+  - Production. Fintel production system is up and running based on the code
+  - Expected no bugs, no BETA, no WIP state in the branch
 
 - ***staging***
-  - Pre-production code.
-  - This is where the final test comes in.
+  - Pre-production. Expecting Fintel client test the platform and decide whether we can deploy to the production or not.
   - No bugs, not beta, wip status of codes in the branch BEFORE the production release
-  - We SHOULD NOT push any changes/Pull Request directory UNLESS test passed in dev.
 
 - ***dev***
-  - Development code.
-  - This is where the development activiies goes first
+  - Development. This is where the development activities goes first
   - Create Pull Request then merged after someone approved code
   - We SHOULD NOT push changes directory. 
   - Use "Squash" option when merging Pull Request
+
+- ***demo***
+  - Demo code. Demo system is up and running based on the code.
+  - Every time deployment happens, the demo need to be updated at the same time
+  - demo === master
+## Rules
+
+- ***master***
+  - we ***SHOULD NOT*** push any changes/Pull Request directory ***EXCEPT*** hotfix.
+
+- ***staging***
+  - We ***SHOULD NOT*** push any changes/Pull Request directory ***UNLESS*** test passed in dev.
+
+- ***dev***
+  - We ***SHOULD NOT*** push changes directory. 
+  - Use ***SHOULD*** "Squash" option when merging Pull Request
 
 - ***demo***
   - Demo code.
   - Fintel demo system is up and running based on the code.
   - Everytime deployment happens, the demo branch also need to be updated
   - demo branch should have the same status of master branch
-## Working on Bug fix
 
 ALWAYS CREATE BRACNH FROM MASTER
 
