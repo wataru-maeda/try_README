@@ -20,7 +20,8 @@
   - Demo code. Demo system is up and running based on the code.
   - Every time deployment happens, the demo need to be updated at the same time
   - demo === master
-## Rules
+
+## Branch Rules
 
 - ***master***
   - we ***SHOULD NOT*** push any changes/Pull Request directory ***EXCEPT*** hotfix.
@@ -30,14 +31,11 @@
 
 - ***dev***
   - We ***SHOULD NOT*** push changes directory. 
-  - Use ***SHOULD*** "Squash" option when merging Pull Request
+  - Use use ***Squash*** option when merging Pull Request
 
 - ***demo***
-  - Demo code.
-  - Fintel demo system is up and running based on the code.
-  - Everytime deployment happens, the demo branch also need to be updated
-  - demo branch should have the same status of master branch
+  - No one need to push any PR to the branch.
 
-ALWAYS CREATE BRACNH FROM MASTER
+## Git Development Flow
 
-
+- Always create branch from ***master***
