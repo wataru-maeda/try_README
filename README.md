@@ -45,12 +45,14 @@ Recommend to set prefix on branch name to distinguish task type
 1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
 1. Open Pull Request to the dev. **Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit
 1. Once it approved, delete **fix/FIN-123-dev**
+1. Move FIN-123 to `IN DEV-TEST`
 
-**Step 4**. Make Pull Request to dev
+**Step 4**. Make Pull Request to staging
 1. Create branch name **fix/FIN-123-staging** from **staging**
 1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
 1. Open Pull Request to the dev. **Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit)
 1. Once it approved, delete **fix/FIN-123-staging**
+1. Move FIN-123 to `IN STAGING-TEST`
 
 ## Case 2: Working on a feature
 
