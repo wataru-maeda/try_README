@@ -39,3 +39,11 @@
 ## Git Development Flow
 
 - Always create branch from ***master***
+- Always make Pull Request to ***dev*** first. After approval on dev, push to ***staging***. Once the package approved, the changes goes to ***master***
+
+### Working on Bug fix
+
+1. Create branch name "fix/FIN-{NUMBER}" from master => push changes
+1. After completed, create "fix/FIN-{NUMBER}-dev" from dev
+1. Cherry picking commits and stash on "fix/FIN-{NUMBER}-dev"
+1. Open Pull Request to the dev
