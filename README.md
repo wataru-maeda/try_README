@@ -28,7 +28,7 @@ Recommend to set prefix on branch name to distinguish task type
 - **wip**:  The task describe **work on progress**. i.e. `wip/FIN-123`
 - **release**:  The task describe **production package**. i.e. `release/v1.50`
 
-## Case 1: Working on Bug fix
+## Case 1: Work on Bug fix
 
 <img src='https://github.com/WataruMaeda/try_README/blob/main/git%20flow.jpg' width='60%'>
 
