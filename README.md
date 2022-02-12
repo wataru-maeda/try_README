@@ -41,11 +41,11 @@ Recommend to set prefix on branch name to distinguish task type
 **Step 3**. Make Pull Request to dev
 1. Create branch name **fix/FIN-123-dev** from **dev**
 1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
-1. Open Pull Request to the dev. (**Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit)
+1. Open Pull Request to the dev. **Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit
 1. Once it approved, delete **fix/FIN-123-dev**
 
 **Step 4**. Make Pull Request to dev
 1. Create branch name **fix/FIN-123-staging** from **staging**
 1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
-1. Open Pull Request to the dev. (Make sure your code before asking Code Review. Check there is console log or files you do not want to commit)
+1. Open Pull Request to the dev. **Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit)
 1. Once it approved, delete **fix/FIN-123-staging**
