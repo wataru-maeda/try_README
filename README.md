@@ -20,7 +20,7 @@
 - Use ***Squash*** option when merging Pull Request
 
 ## Examples
-### Working on Bug fix
+#### Case1: Working on Bug fix
 
 1. Create branch name "fix/FIN-{JIRA-TASK-ID}" from ***master*** => push changes
 1. After implementation completed, create "fix/FIN-{JIRA-TASK-ID}-dev" from ***dev***
