@@ -12,8 +12,8 @@
 
 - ***dev***
   - Development. This is where the development activities goes first
-  - Create Pull Request then merged after someone approved code
   - We SHOULD NOT push changes directory. 
+  - Always create Pull Request. Other developer can review the code and approved it
   - Use "Squash" option when merging Pull Request
 
 - ***demo***
@@ -34,11 +34,12 @@
   - Use use ***Squash*** option when merging Pull Request
 
 - ***demo***
-  - No one need to push any PR to the branch.
+  - No one need to push PR to the branch.
 
 ## Git Development Flow
 
 - Always create branch from ***master***
+- Always the order of ***dev -> staging -> master -> demo*** except hotfix
 - Always make Pull Request to ***dev*** first. After approval on dev, push to ***staging***. Once the package approved, the changes goes to ***master***
 
 ### Working on Bug fix
