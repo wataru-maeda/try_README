@@ -49,3 +49,11 @@ Recommend to set prefix on branch name to distinguish task type
 1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
 1. Open Pull Request to the dev. **Make sure your code before asking Code Review**. Check there is console log or files you do not want to commit)
 1. Once it approved, delete **fix/FIN-123-staging**
+
+## Case 2: Working on a feature
+
+Feature is bunch of tickets
+
+**Step 1**. Pick a bug ticket from JIRA
+1. Check the JIRA board and you select a bug task `FIN-123`
+1. Move FIN-123 ticket to `In Development` column
