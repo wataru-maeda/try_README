@@ -13,7 +13,7 @@
 - **staging**: We **SHOULD NOT** push any changes/Pull Request directory **UNLESS** test passed in dev.
 - **dev**: We **SHOULD NOT** push changes directory. 
 - **demo**: No one need to push PR to the branch.
-## Git Development Flow
+## Dev Flow
 
 - Always create branch from **master**
 - Always the order of **dev -> staging -> master -> demo** except hotfix. Make Pull Request to **dev** first. After approval on dev, push to **staging**. Once the package approved, the changes goes to **master**
@@ -29,7 +29,10 @@ Recommend to set prefix on branch name to distinguish task type
 ## Examples
 #### Case1: Working on Bug fix
 
-1. Create branch name "fix/FIN-{JIRA-TASK-ID}" from **master** => push changes
+1. Select ticket to work on
+  1. Check the JIRA board and pick the task i.e. FIN-123
+  2. Move FIN-123 ticket to `In Development` column
+1. Create branch name "fix/FIN-123" from **master** -> Push changes
 1. After implementation completed, create "fix/FIN-{JIRA-TASK-ID}-dev" from **dev**
 1. Cherry picking commits and stash on "fix/FIN-{JIRA-TASK-ID}-dev"
 1. Open Pull Request to the dev
