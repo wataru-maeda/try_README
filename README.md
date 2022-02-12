@@ -30,8 +30,8 @@ Recommend to set prefix on branch name to distinguish task type
 #### Case1: Working on Bug fix
 
 - **Step 1**. Pick a ticket from JIRA
-  - [1] Check the JIRA board and you select a bug task `FIN-123`
-  - [2] Move FIN-123 ticket to `In Development` column
+  (1) Check the JIRA board and you select a bug task `FIN-123`
+  (2) Move FIN-123 ticket to `In Development` column
 
 - **Step 2**. Work on the bug ticket
   - 1. Create branch name **fix/FIN-123** from **master**
