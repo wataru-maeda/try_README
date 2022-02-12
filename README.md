@@ -29,10 +29,20 @@ Recommend to set prefix on branch name to distinguish task type
 ## Examples
 #### Case1: Working on Bug fix
 
-1. Select ticket to work on
-  1. Check the JIRA board and pick the task i.e. FIN-123
-  2. Move FIN-123 ticket to `In Development` column
-1. Create branch name "fix/FIN-123" from **master** -> Push changes
+Step 1. Pick a ticket from JIRA
+  - 1. Check the JIRA board and you select a bug task `FIN-123`
+  - 2. Move FIN-123 ticket to `In Development` column
+
+
+Step 2. Work on the bug ticket
+  - 1. Create branch name **fix/FIN-123** from **master**
+  - 2. Push changes to the branch
+  - 3. Before pushing to dev, make sure it functionally working on your locally
+
+Step 3. Make Pull Request to dev
+  - 1. Create branch name **fix/FIN-123-dev** from **dev**
+
+
 1. After implementation completed, create "fix/FIN-{JIRA-TASK-ID}-dev" from **dev**
 1. Cherry picking commits and stash on "fix/FIN-{JIRA-TASK-ID}-dev"
 1. Open Pull Request to the dev
