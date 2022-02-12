@@ -9,26 +9,17 @@
 
 ## Branch Rules
 
-- ***master***
-  - we ***SHOULD NOT*** push any changes/Pull Request directory ***EXCEPT*** hotfix.
-
-- ***staging***
-  - We ***SHOULD NOT*** push any changes/Pull Request directory ***UNLESS*** test passed in dev.
-
-- ***dev***
-  - We ***SHOULD NOT*** push changes directory. 
-  - Use use ***Squash*** option when merging Pull Request
-
-- ***demo***
-  - No one need to push PR to the branch.
-
+- ***master***: we ***SHOULD NOT*** push any changes/Pull Request directory ***EXCEPT*** hotfix.
+- ***staging***: We ***SHOULD NOT*** push any changes/Pull Request directory ***UNLESS*** test passed in dev.
+- ***dev***: We ***SHOULD NOT*** push changes directory. 
+- ***demo***: No one need to push PR to the branch.
 ## Git Development Flow
 
 - Always create branch from ***master***
-- Always the order of ***dev -> staging -> master -> demo*** except hotfix
-- Always make Pull Request to ***dev*** first. After approval on dev, push to ***staging***. Once the package approved, the changes goes to ***master***
+- Always the order of ***dev -> staging -> master -> demo*** except hotfix. Make Pull Request to ***dev*** first. After approval on dev, push to ***staging***. Once the package approved, the changes goes to ***master***
 - Use ***Squash*** option when merging Pull Request
 
+## Examples
 ### Working on Bug fix
 
 1. Create branch name "fix/FIN-{JIRA-TASK-ID}" from ***master*** => push changes
