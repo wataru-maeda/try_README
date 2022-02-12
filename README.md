@@ -29,6 +29,8 @@ Recommend to set prefix on branch name to distinguish task type
 
 ## Case 1: Working on Bug fix
 
+<img src='https://github.com/WataruMaeda/try_README/blob/main/git%20flow.jpg' width='100%'>
+
 **Step 1**. Pick a bug ticket from JIRA
 1. Check the JIRA board and you select a bug task `FIN-123`
 1. Move FIN-123 ticket to `In Development` column
