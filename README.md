@@ -2,24 +2,10 @@
 
 ## Main Branches
 
-- ***master***
-  - Production. Fintel production system is up and running based on the code
-  - Expected no bugs, no BETA, no WIP state in the branch
-
-- ***staging***
-  - Pre-production. Expecting Fintel client test the platform and decide whether we can deploy to the production or not.
-  - No bugs, not beta, wip status of codes in the branch BEFORE the production release
-
-- ***dev***
-  - Development. This is where the development activities goes first
-  - We SHOULD NOT push changes directory. 
-  - Always create Pull Request. Other developer can review the code and approved it
-  - Use "Squash" option when merging Pull Request
-
-- ***demo***
-  - Demo code. Demo system is up and running based on the code.
-  - Every time deployment happens, the demo need to be updated at the same time
-  - demo === master
+- ***master***: Production. Fintel production system is up and running based on the code. Expected no bugs, no BETA, no WIP state in the branch
+- ***staging***: Pre-production. Expecting Fintel client test the platform and decide whether we can deploy to the production or not. No bugs, not beta, wip status of codes in the branch BEFORE the production release
+- ***dev***: Development. This is where the development activities goes first.
+- ***demo***: Demo. Demo system is up and running based on the code. Every time deployment happens, the demo need to be updated at the same time
 
 ## Branch Rules
 
@@ -41,6 +27,7 @@
 - Always create branch from ***master***
 - Always the order of ***dev -> staging -> master -> demo*** except hotfix
 - Always make Pull Request to ***dev*** first. After approval on dev, push to ***staging***. Once the package approved, the changes goes to ***master***
+- Use ***Squash*** option when merging Pull Request
 
 ### Working on Bug fix
 
