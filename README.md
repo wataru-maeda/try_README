@@ -28,6 +28,15 @@ Recommend to set prefix on branch name to distinguish task type
 - **wip**:  The task describe **work on progress**. i.e. `wip/FIN-123`
 - **release**:  The task describe **production package**. i.e. `release/v1.50`
 
+## Commit Name Convention
+
+- **feat**: The task describe new **feature implementation** i.e. `feat: implement great feature`
+- **fix**: The task describe **bug fix** i.e. `fix: fetch user data`
+- **BREAKING CHANGE**: The task describe **change that affects to the other module** i.e. `BREAKING CHANGE: remove user module`
+- **hotfix**: The task describe **emergency fix on production** i.e. `hotfix: `
+- **wip**:  The task describe **work on progress**. i.e. `wip/FIN-123`
+- **release**:  The task describe **production package**. i.e. `release/v1.50`
+
 ## Case 1: Work on Bug fix
 
 <img src='https://github.com/WataruMaeda/try_README/blob/main/git%20flow.jpg' width='60%'>
