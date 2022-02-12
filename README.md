@@ -26,8 +26,8 @@ Recommend to set prefix on branch name to distinguish task type
 - **fix**: The task describe **bug fix** i.e. `fix/FIN-123`
 - **hotfix**: The task describe **emergency fix on production** i.e. `hotfix/FIN-123`
 - **wip**:  The task describe **work on progress**. i.e. `wip/FIN-123`
-## Examples
-### Case1: Working on Bug fix
+
+## Case1: Working on Bug fix
 
 **Step 1**. Pick a ticket from JIRA
 1. Check the JIRA board and you select a bug task `FIN-123`
