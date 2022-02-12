@@ -33,18 +33,12 @@ Recommend to set prefix on branch name to distinguish task type
 1. Check the JIRA board and you select a bug task `FIN-123`
 2. Move FIN-123 ticket to `In Development` column
 
-- **Step 2**. Work on the bug ticket
-  - 1. Create branch name **fix/FIN-123** from **master**
-  - 2. Push changes to the branch
-  - 3. Before pushing to dev, make sure it functionally working on your locally
+**Step 2**. Work on the bug ticket
+1. Create branch name **fix/FIN-123** from **master**
+2. Push changes to the branch
+3. Before pushing to dev, make sure it functionally working on your locally
 
-- **Step 3**. Make Pull Request to dev
-  - 1. Create branch name **fix/FIN-123-dev** from **dev**
-
-
-1. After implementation completed, create "fix/FIN-{JIRA-TASK-ID}-dev" from **dev**
-1. Cherry picking commits and stash on "fix/FIN-{JIRA-TASK-ID}-dev"
-1. Open Pull Request to the dev
-1. Once it's merged in dev then approved by internal tester, create "fix/FIN-{JIRA-TASK-ID}-dev" from **staging**
-1. Cherry picking commits and stash on "fix/FIN-{JIRA-TASK-ID}-dev"
-1. Open Pull Request to the staging
+**Step 3**. Make Pull Request to dev
+1. Create branch name **fix/FIN-123-dev** from **dev**
+1. Cherry picking commits from **fix/FIN-123** and stash on **fix/FIN-123-dev**
+1. Open Pull Request to the dev. (Make sure your code before asking Code Review. Check there is console log or files you do not want to commit)
