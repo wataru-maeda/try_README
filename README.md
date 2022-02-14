@@ -68,7 +68,7 @@ Recommend to set prefix on branch name to distinguish task type
 
 Feature is bunch of tickets
 
-<img src='https://github.com/WataruMaeda/try_README/blob/main/git%20flow%202.jpg' width='60%'>
+<img src='https://github.com/WataruMaeda/try_README/blob/main/git%20flow%202.png' width='60%'>
 
 **Step 1**. Pick a bug ticket from JIRA
 1. Check the JIRA board and you select a bug task `FIN-123`
